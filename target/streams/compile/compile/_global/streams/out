@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/giuseppe/Desktop/GIT/Prova3/chipyard/generators/PARoCCAccel/src/main/scala/PARoCCAccel.scala:5:29: object config is not a member of package freechips.rocketchip[0m
+[0m[[0m[31merror[0m] [0m[0mimport freechips.rocketchip.config._ // import Config object[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/giuseppe/Desktop/GIT/Prova3/chipyard/generators/PARoCCAccel/src/main/scala/PARoCCAccel.scala:120:64: not found: type Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mclass PARoCCAccel(opcodes: OpcodeSet, val w : Int)(implicit p: Parameters) extends LazyRoCC(opcodes){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/giuseppe/Desktop/GIT/Prova3/chipyard/generators/PARoCCAccel/src/main/scala/PARoCCAccel.scala:120:84: could not find implicit value for parameter p: org.chipsalliance.cde.config.Parameters[0m
+[0m[[0m[31merror[0m] [0m[0mError occurred in an application involving default arguments.[0m
+[0m[[0m[31merror[0m] [0m[0mclass PARoCCAccel(opcodes: OpcodeSet, val w : Int)(implicit p: Parameters) extends LazyRoCC(opcodes){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
